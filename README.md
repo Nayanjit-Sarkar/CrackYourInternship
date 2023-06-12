@@ -7,7 +7,7 @@ The repository is organized into folders. Inside each folder, you will find the 
 ## Language
 All solutions are implemented using Python programming language. Python is my preferred language for its simplicity and versatility in solving coding problems efficiently.
 
-##How to Use
+## How to Use
 Feel free to explore the repository and access the code solutions. Each solution file includes a brief problem description and my approach to solving it. You can clone the repository to your local machine and run the code on your own environment for testing and further exploration.
 
 Please note that these solutions are my personal implementations and may not be the most optimal or the only way to solve the problems. I encourage you to use them as a reference and come up with your own solutions as well.
