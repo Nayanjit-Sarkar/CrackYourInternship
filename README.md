@@ -1,4 +1,4 @@
-# LeetCode Solutions
+# <img src="https://img.icons8.com/?size=512&id=9L16NypUzu38&format=png" alt="Leetcode Logo" width="50" height="50"/> LeetCode Solutions 
 This repository contains my solutions to various coding problems from LeetCode. I enjoy solving these challenges as they provide an opportunity to sharpen my problem-solving and coding skills.
 
 ## Structure
