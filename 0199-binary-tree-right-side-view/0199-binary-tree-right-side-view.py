@@ -10,21 +10,21 @@ class Solution:
         if root is None:
             return None
         queue = deque()
-        lvl,i={},0
-        lvl[i] = root.val
+        lvl,i=[],0
+        lvl.append(root.val)
         queue.append(root.right)
         queue.append(root.left)
         while queue:
-            i+=1
+            i=0
             length = len(queue)
             for _ in range(length):
                 node = queue.popleft()
                 if node:
-                    if i not in lvl:
-                        lvl[i] = node.val
+                    if i == 0:
+                        lvl.append(node.val)
+                        i = 1
                     queue.append(node.right)
                     queue.append(node.left)
-        res = []
-        for i in lvl:
-            res.append(lvl[i])
-        return res
+    
+        
+        return lvl
