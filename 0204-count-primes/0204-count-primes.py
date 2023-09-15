@@ -5,7 +5,7 @@ class Solution:
         arr = [True for i in range(n+1)]
         while (p*p< n):
             if arr[p]:
-                for i in range(p*p, n+1, p):
+                for i in range(p*p, n, p):
                     arr[i] = False
             p+=1
         
