@@ -9,7 +9,7 @@ class Solution:
             y = hq.heappop(stones)
             if y>x:
                 hq.heappush(stones, x-y)
-        if stones:
-            return -hq.heappop(stones)
-        return 0
+        
+        stones.append(0)
+        return abs(stones[0])
         
